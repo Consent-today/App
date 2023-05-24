@@ -1,0 +1,22 @@
+{
+  "title": "Header with multiple layers",
+  "category": "headers",
+  "author": "rtivital",
+  "withColor": true,
+  "responsive": true,
+  "dependencies": ["/core/app-shell/", "/core/button/#unstyled-button"],
+  "props": {
+    "userLinks": [
+      { "link": "#", "label": "Privacy & Security" },
+      { "link": "#", "label": "Account settings" },
+      { "link": "#", "label": "Support options" }
+    ],
+    "mainLinks": [
+      { "link": "#", "label": "Editor" },
+      { "link": "#", "label": "Impostazioni email" }
+    ]
+  },
+  "canvas": {
+    "center": false
+  }
+}

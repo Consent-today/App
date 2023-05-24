@@ -1,0 +1,50 @@
+{
+  "name": "consensus",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@expo/webpack-config": "^18.0.1",
+    "@mantine/core": "^6.0.11",
+    "@mantine/dates": "^6.0.11",
+    "@mantine/form": "^6.0.11",
+    "@mantine/hooks": "^6.0.11",
+    "@mantine/modals": "^6.0.11",
+    "@mantine/notifications": "^6.0.11",
+    "@mantine/nprogress": "^6.0.11",
+    "@tabler/icons-react": "^2.20.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "dayjs": "^1.11.7",
+    "expo": "~48.0.15",
+    "expo-image": "~1.0.1",
+    "expo-status-bar": "~1.4.4",
+    "install": "^0.13.0",
+    "npm": "^9.6.7",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.71.8",
+    "react-native-html-parser": "^0.1.0",
+    "react-native-web": "~0.18.11",
+    "react-remark": "^2.1.0",
+    "remark": "^14.0.3",
+    "remark-breaks": "^3.0.3",
+    "remark-gfm": "^3.0.1",
+    "remark-html": "^15.0.2",
+    "remark-images": "^3.1.0",
+    "remark-toc": "^8.0.1",
+    "tabler-icons-react": "^1.56.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^4.9.4"
+  },
+  "private": true
+}
